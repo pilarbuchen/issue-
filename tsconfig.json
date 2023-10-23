@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "module": "NodeNext",
+    "target": "ESNext",
+    "noImplicitAny": false,
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "jsx": "react",
+    "sourceMap": true,
+    "preserveSymlinks": true,
+    "baseUrl": ".",
+    "paths": {"*": ["node_modules/@types/*"]}
+  },
+  "exclude": [
+    "node_modules",
+    "tests",
+  ],
+  "include": [
+    "lib"
+  ]
+}
